@@ -2,11 +2,8 @@
 # Author: siggi@google.com (Sigurdur Asgeirsson)
 
 {
-  'variables': {
-    'chromium_code': 1,
-  },
   'includes': [
-    '../../build/common.gypi',
+    'build/common.gypi',
   ],
   'target_defaults': {
     'include_dirs': [
